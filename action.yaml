@@ -1,0 +1,12 @@
+name: OpenModelica Compiler Setup
+author: Kristian Zarebski
+description: Sets up the specified version of OpenModelica Compiler
+inputs:
+  version:
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'bar-chart-2'
+  color: 'blue'
