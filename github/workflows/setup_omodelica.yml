@@ -1,0 +1,7 @@
+name: Setup OpenModelica Action
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: kzscisoft/setup-openmodelica@v1
