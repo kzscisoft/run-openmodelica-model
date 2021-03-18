@@ -1,10 +1,4 @@
 #!/usr/bin/bash
-if [ -z ${INPUT_VERSION} ]
-then
-    echo "No OpenModelica version specified."
-    exit 1
-fi
-
 OPENMODELICA_DOWNLOADS=https://build.openmodelica.org/omc/builds/linux/releases/
 
 if [ -z ${INPUT_VERSION} ]
