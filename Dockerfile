@@ -1,5 +1,5 @@
 FROM centos:8
-RUN dnf update
+RUN dnf update -y
 RUN dnf install -y tar gcc-c++ autoconf sqlite-devel java expat-devel lpsolve-devel lapack-devel make patch gettext git
 ADD cmake-3.20.0-rc5-linux-x86_64.tar.gz cmake-3.20.0.tar.gz
 RUN tar -xvf cmake-3.20.0.tar.gz
