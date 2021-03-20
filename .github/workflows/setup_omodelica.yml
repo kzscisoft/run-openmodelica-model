@@ -7,6 +7,5 @@ jobs:
       - uses: kzscisoft/run-openmodelica-model@v1
         with:
           model_name: SineCurrentModel
-          libraries:
-            - Modelica
+          libraries: Modelica BioChem
           file_path: test/SineCurrentModel.mo
