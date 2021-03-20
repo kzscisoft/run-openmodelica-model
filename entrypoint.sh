@@ -6,7 +6,7 @@ then
     ARGUMENTS+=("+i=${INPUT_MODEL_NAME}")
 fi
 
-if [ -n "${INPUT_LIBRARIES}"]
+if [ -n "${INPUT_LIBRARIES}" ]
 then
     ARGUMENTS+=("${INPUT_LIBRARIES}")
 fi
