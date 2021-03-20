@@ -5,3 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: kzscisoft/setup-openmodelica@v1
+        with:
+          version: 1.13.0
+      - run: omc --version

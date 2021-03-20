@@ -22,4 +22,4 @@ else
     fi
 fi
 
-for PKG in `apt-cache search "omlib-.*" | cut -d" " -f1`; do apt install -y "$PKG"; done
+apt install -y $(apt-cache search "omlib-.*" | cut -d" " -f1 | xargs)   
